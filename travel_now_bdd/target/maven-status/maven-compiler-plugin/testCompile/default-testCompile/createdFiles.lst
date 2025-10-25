@@ -1,0 +1,8 @@
+com\travelnow\steps\Hooks.class
+com\travelnow\steps\ReservasSteps.class
+com\travelnow\runner\TestRunner.class
+com\travelnow\steps\LoginSteps.class
+com\travelnow\steps\CancelacionSteps.class
+com\travelnow\steps\ComunesSteps.class
+com\travelnow\steps\BusquedaHotelSteps.class
+com\travelnow\steps\BusquedaVuelosSteps.class

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.travelnow.runner.TestRunner" time="1.011" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ashle\OneDrive\Desktop\travel_now_bdd\target\test-classes;C:\Users\ashle\OneDrive\Desktop\travel_now_bdd\target\classes;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ashle\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\ashle\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\ashle\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ashle\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\ashle\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\ashle\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ashle\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashle\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ashle\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\ashle\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\ashle\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\ashle\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\ashle\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\ashle\AppData\Local\Temp\surefire17324671805465845671\surefirebooter-20251022181911745_3.jar C:\Users\ashle\AppData\Local\Temp\surefire17324671805465845671 2025-10-22T18-19-11_589-jvmRun1 surefire-20251022181911745_1tmp surefire_0-20251022181911745_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ashle\OneDrive\Desktop\travel_now_bdd\target\test-classes;C:\Users\ashle\OneDrive\Desktop\travel_now_bdd\target\classes;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ashle\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\ashle\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\ashle\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ashle\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\ashle\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ashle\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\ashle\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\ashle\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ashle\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ashle\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ashle\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\ashle\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\ashle\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\ashle\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\ashle\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\ashle\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\ashle\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ashle"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ashle\OneDrive\Desktop\travel_now_bdd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ashle\AppData\Local\Temp\surefire17324671805465845671\surefirebooter-20251022181911745_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12-54"/>
+    <property name="user.name" value="ashle"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ashle\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ashle\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="C:\Users\ashle\OneDrive\Desktop\travel_now_bdd"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-24\bin;C:\Program Files\HerramientasDev\apache-maven-3.9.10\bin;C:\Program Files\WebDriver\Edge;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\ashle\AppData\Local\Microsoft\WindowsApps;C:\Users\ashle\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ashle\AppData\Roaming\npm;;c:\Users\ashle\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.2+12-54"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="Inicio de sesión exitoso" classname="HU-001 Validación de usuario TravelNow" time="0.144">
+    <system-out><![CDATA[
+@SmokeTest @login
+Scenario: Inicio de sesión exitoso                           # src/test/resources/features/HU001_Login.feature:9
+==========================================
+>>> Iniciando escenario: Inicio de sesión exitoso
+>>> Configurando entorno de prueba...
+==========================================
+El usuario está en la página de inicio de sesión.
+  Given que el usuario está en la página de inicio de sesión # com.travelnow.steps.LoginSteps.que_el_usuario_esta_en_la_pagina_de_inicio_de_sesion()
+El usuario ingresa credenciales válidas.
+  When ingresa credenciales válidas                          # com.travelnow.steps.LoginSteps.ingresa_credenciales_validas()
+El sistema redirige al usuario a la página principal.
+  Then el sistema lo manda a la página principal             # com.travelnow.steps.LoginSteps.el_sistema_lo_manda_a_la_pagina_principal()
+------------------------------------------
+>>> Escenario finalizado correctamente: Inicio de sesión exitoso
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Inicio de sesión fallido" classname="HU-001 Validación de usuario TravelNow" time="0.019">
+    <system-out><![CDATA[
+@SmokeTest
+Scenario: Inicio de sesión fallido                                        # src/test/resources/features/HU001_Login.feature:14
+==========================================
+>>> Iniciando escenario: Inicio de sesión fallido
+>>> Configurando entorno de prueba...
+==========================================
+El usuario está en la página de inicio de sesión.
+  Given que el usuario está en la página de inicio de sesión              # com.travelnow.steps.LoginSteps.que_el_usuario_esta_en_la_pagina_de_inicio_de_sesion()
+El usuario ingresa credenciales incorrectas.
+  When ingresa credenciales incorrectas                                   # com.travelnow.steps.LoginSteps.ingresa_credenciales_incorrectas()
+El sistema muestra el mensaje: usuario o contraseña incorrecta
+  Then el sistema muestra un mensaje de "usuario o contraseña incorrecta" # com.travelnow.steps.LoginSteps.el_sistema_muestra_un_mensaje(java.lang.String)
+------------------------------------------
+>>> Escenario finalizado correctamente: Inicio de sesión fallido
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Búsqueda simple de vuelos" classname="HU-002 Búsqueda de vuelos en TravelNow #1" time="0.032">
+    <system-out><![CDATA[
+@SmokeTest @Busqueda @Vuelos
+Scenario: Búsqueda simple de vuelos                       # src/test/resources/features/HU002_BusquedaVuelos.feature:10
+==========================================
+>>> Iniciando escenario: Búsqueda simple de vuelos
+>>> Configurando entorno de prueba...
+==========================================
+El usuario está en la página principal.
+  Given que el usuario está en la página principal        # com.travelnow.steps.ComunesSteps.que_el_usuario_esta_en_la_pagina_principal()
+Buscando vuelos desde Santiago hacia Buenos Aires.
+  When ingresa origen "Santiago" y destino "Buenos Aires" # com.travelnow.steps.BusquedaVuelosSteps.ingresa_origen_y_destino(java.lang.String,java.lang.String)
+El usuario presiona el botón: Buscar vuelos
+  And presiona "Buscar vuelos"                            # com.travelnow.steps.BusquedaVuelosSteps.presiona(java.lang.String)
+Se muestran vuelos disponibles en pantalla.
+  Then se muestran vuelos disponibles en pantalla         # com.travelnow.steps.ComunesSteps.se_muestran_vuelos_disponibles_en_pantalla()
+------------------------------------------
+>>> Escenario finalizado correctamente: Búsqueda simple de vuelos
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Búsqueda simple de vuelos" classname="HU-002 Búsqueda de vuelos en TravelNow #2" time="0.013">
+    <system-out><![CDATA[
+@SmokeTest @Busqueda @Vuelos
+Scenario: Búsqueda simple de vuelos                       # src/test/resources/features/HU003_BusquedaHoteles.feature:10
+==========================================
+>>> Iniciando escenario: Búsqueda simple de vuelos
+>>> Configurando entorno de prueba...
+==========================================
+El usuario está en la página principal.
+  Given que el usuario está en la página principal        # com.travelnow.steps.ComunesSteps.que_el_usuario_esta_en_la_pagina_principal()
+Buscando vuelos desde Santiago hacia Buenos Aires.
+  When ingresa origen "Santiago" y destino "Buenos Aires" # com.travelnow.steps.BusquedaVuelosSteps.ingresa_origen_y_destino(java.lang.String,java.lang.String)
+El usuario presiona el botón: Buscar vuelos
+  And presiona "Buscar vuelos"                            # com.travelnow.steps.BusquedaVuelosSteps.presiona(java.lang.String)
+Se muestran vuelos disponibles en pantalla.
+  Then se muestran vuelos disponibles en pantalla         # com.travelnow.steps.ComunesSteps.se_muestran_vuelos_disponibles_en_pantalla()
+------------------------------------------
+>>> Escenario finalizado correctamente: Búsqueda simple de vuelos
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Reserva de vuelo exitosa" classname="HU-004 Plataforma de Reservas TravelNow" time="0.016">
+    <system-out><![CDATA[
+@SmokeTest @Reserva @vuelo
+Scenario: Reserva de vuelo exitosa                                     # src/test/resources/features/HU004_Reservas.feature:10
+==========================================
+>>> Iniciando escenario: Reserva de vuelo exitosa
+>>> Configurando entorno de prueba...
+==========================================
+El usuario ha iniciado sesión correctamente.
+  Given que el usuario ha iniciado sesión correctamente                # com.travelnow.steps.ReservasSteps.que_el_usuario_ha_iniciado_sesion_correctamente()
+El usuario tiene un vuelo seleccionado.
+  And tiene un vuelo seleccionado en la lista de resultados            # com.travelnow.steps.ReservasSteps.tiene_un_vuelo_seleccionado_en_la_lista_de_resultados()
+El usuario realiza el pago exitosamente.
+  When confirma la reserva y realiza el pago con tarjeta válida        # com.travelnow.steps.ReservasSteps.confirma_la_reserva_y_realiza_el_pago_con_tarjeta_valida()
+El sistema muestra el mensaje: Reserva completada exitosamente
+  Then el sistema muestra un mensaje "Reserva completada exitosamente" # com.travelnow.steps.ReservasSteps.el_sistema_muestra_un_mensaje(java.lang.String)
+------------------------------------------
+>>> Escenario finalizado correctamente: Reserva de vuelo exitosa
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Reserva de hotel exitosa" classname="HU-004 Plataforma de Reservas TravelNow" time="0.011">
+    <system-out><![CDATA[
+@SmokeTest @Reserva @Hoteles
+Scenario: Reserva de hotel exitosa                                     # src/test/resources/features/HU004_Reservas.feature:18
+==========================================
+>>> Iniciando escenario: Reserva de hotel exitosa
+>>> Configurando entorno de prueba...
+==========================================
+El usuario ha iniciado sesión correctamente.
+  Given que el usuario ha iniciado sesión correctamente                # com.travelnow.steps.ReservasSteps.que_el_usuario_ha_iniciado_sesion_correctamente()
+El usuario tiene un hotel seleccionado.
+  And tiene un hotel seleccionado en la lista de resultados            # com.travelnow.steps.ReservasSteps.tiene_un_hotel_seleccionado_en_la_lista_de_resultados()
+El usuario realiza el pago exitosamente.
+  When confirma la reserva y realiza el pago con tarjeta válida        # com.travelnow.steps.ReservasSteps.confirma_la_reserva_y_realiza_el_pago_con_tarjeta_valida()
+El sistema muestra el mensaje: Reserva completada exitosamente
+  Then el sistema muestra un mensaje "Reserva completada exitosamente" # com.travelnow.steps.ReservasSteps.el_sistema_muestra_un_mensaje(java.lang.String)
+------------------------------------------
+>>> Escenario finalizado correctamente: Reserva de hotel exitosa
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Cancelación de una reserva" classname="HU-004 Plataforma de Reservas TravelNow" time="0.009">
+    <system-out><![CDATA[
+@SmokeTest @Cancelacion
+Scenario: Cancelación de una reserva             # src/test/resources/features/HU004_Reservas.feature:26
+==========================================
+>>> Iniciando escenario: Cancelación de una reserva
+>>> Configurando entorno de prueba...
+==========================================
+El usuario tiene una reserva activa.
+  Given que el usuario tiene una reserva activa  # com.travelnow.steps.CancelacionSteps.que_el_usuario_tiene_una_reserva_activa()
+El usuario ingresa a la sección: Mis reservas
+  When ingresa a "Mis reservas"                  # com.travelnow.steps.CancelacionSteps.ingresa_a(java.lang.String)
+El usuario selecciona la opción: Cancelar reserva
+  And selecciona "Cancelar reserva"              # com.travelnow.steps.CancelacionSteps.selecciona(java.lang.String)
+El sistema cambia el estado de la reserva a: Cancelada
+  Then la reserva cambia su estado a "Cancelada" # com.travelnow.steps.CancelacionSteps.la_reserva_cambia_su_estado_a(java.lang.String)
+------------------------------------------
+>>> Escenario finalizado correctamente: Cancelación de una reserva
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Búsqueda de vuelos con distintos orígenes y destinos #1" classname="HU-005 Búsqueda parametrizada de vuelos" time="0.017">
+    <system-out><![CDATA[
+@SmokeTest @Busqueda @Outline
+Scenario Outline: Búsqueda de vuelos con distintos orígenes y destinos # src/test/resources/features/HU005_BusquedaParametrizada.feature:18
+==========================================
+>>> Iniciando escenario: Búsqueda de vuelos con distintos orígenes y destinos
+>>> Configurando entorno de prueba...
+==========================================
+El usuario está en la sección de vuelos.
+  Given que el usuario está en la sección de vuelos                    # com.travelnow.steps.BusquedaVuelosSteps.que_el_usuario_esta_en_la_seccion_de_vuelos()
+Buscando vuelos desde Santiago hacia Lima.
+  When ingresa origen "Santiago" y destino "Lima"                      # com.travelnow.steps.BusquedaVuelosSteps.ingresa_origen_y_destino(java.lang.String,java.lang.String)
+El usuario presiona el botón: Buscar vuelos
+  And presiona "Buscar vuelos"                                         # com.travelnow.steps.BusquedaVuelosSteps.presiona(java.lang.String)
+El sistema muestra resultados de vuelos entre Santiago y Lima.
+  Then se muestran resultados entre "Santiago" y "Lima"                # com.travelnow.steps.BusquedaVuelosSteps.se_muestran_resultados_entre_y(java.lang.String,java.lang.String)
+------------------------------------------
+>>> Escenario finalizado correctamente: Búsqueda de vuelos con distintos orígenes y destinos
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Búsqueda de vuelos con distintos orígenes y destinos #2" classname="HU-005 Búsqueda parametrizada de vuelos" time="0.008">
+    <system-out><![CDATA[
+@SmokeTest @Busqueda @Outline
+Scenario Outline: Búsqueda de vuelos con distintos orígenes y destinos # src/test/resources/features/HU005_BusquedaParametrizada.feature:19
+==========================================
+>>> Iniciando escenario: Búsqueda de vuelos con distintos orígenes y destinos
+>>> Configurando entorno de prueba...
+==========================================
+El usuario está en la sección de vuelos.
+  Given que el usuario está en la sección de vuelos                    # com.travelnow.steps.BusquedaVuelosSteps.que_el_usuario_esta_en_la_seccion_de_vuelos()
+Buscando vuelos desde Buenos Aires hacia Madrid.
+  When ingresa origen "Buenos Aires" y destino "Madrid"                # com.travelnow.steps.BusquedaVuelosSteps.ingresa_origen_y_destino(java.lang.String,java.lang.String)
+El usuario presiona el botón: Buscar vuelos
+  And presiona "Buscar vuelos"                                         # com.travelnow.steps.BusquedaVuelosSteps.presiona(java.lang.String)
+El sistema muestra resultados de vuelos entre Buenos Aires y Madrid.
+  Then se muestran resultados entre "Buenos Aires" y "Madrid"          # com.travelnow.steps.BusquedaVuelosSteps.se_muestran_resultados_entre_y(java.lang.String,java.lang.String)
+------------------------------------------
+>>> Escenario finalizado correctamente: Búsqueda de vuelos con distintos orígenes y destinos
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+  <testcase name="Búsqueda de vuelos con distintos orígenes y destinos #3" classname="HU-005 Búsqueda parametrizada de vuelos" time="0.014">
+    <system-out><![CDATA[
+@SmokeTest @Busqueda @Outline
+Scenario Outline: Búsqueda de vuelos con distintos orígenes y destinos # src/test/resources/features/HU005_BusquedaParametrizada.feature:20
+==========================================
+>>> Iniciando escenario: Búsqueda de vuelos con distintos orígenes y destinos
+>>> Configurando entorno de prueba...
+==========================================
+El usuario está en la sección de vuelos.
+  Given que el usuario está en la sección de vuelos                    # com.travelnow.steps.BusquedaVuelosSteps.que_el_usuario_esta_en_la_seccion_de_vuelos()
+Buscando vuelos desde Bogotá hacia Miami.
+  When ingresa origen "Bogotá" y destino "Miami"                       # com.travelnow.steps.BusquedaVuelosSteps.ingresa_origen_y_destino(java.lang.String,java.lang.String)
+El usuario presiona el botón: Buscar vuelos
+  And presiona "Buscar vuelos"                                         # com.travelnow.steps.BusquedaVuelosSteps.presiona(java.lang.String)
+El sistema muestra resultados de vuelos entre Bogotá y Miami.
+  Then se muestran resultados entre "Bogotá" y "Miami"                 # com.travelnow.steps.BusquedaVuelosSteps.se_muestran_resultados_entre_y(java.lang.String,java.lang.String)
+------------------------------------------
+>>> Escenario finalizado correctamente: Búsqueda de vuelos con distintos orígenes y destinos
+>>> Cerrando entorno de prueba...
+------------------------------------------
+
+]]></system-out>
+  </testcase>
+</testsuite>
